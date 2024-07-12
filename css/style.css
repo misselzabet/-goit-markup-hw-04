@@ -184,6 +184,7 @@ padding: 120px 0;
    clip: rect(0 0 0 0);
    overflow: hidden;
  }
+ 
  .benefits-table {
    display: flex;
    gap: 24px;
