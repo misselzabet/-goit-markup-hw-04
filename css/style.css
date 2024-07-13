@@ -395,6 +395,10 @@ visibility: visible;
 
  }
 /* footer */
+footer .container {
+   display: flex;
+   
+}
  .last-line { 
     background-color:#2E2F42;
    
