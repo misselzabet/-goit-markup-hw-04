@@ -181,6 +181,16 @@ url(../images/effective-solution.jpg);
 padding: 120px 0;
  }
 
+ .benefits-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 112px;
+   background-color: #f4f4fd;
+   border-radius: 4px;
+   border: 1PX solid #8E8F99;
+   margin-bottom: 8px;
+ }
 .benefits-icon {
    border: 1px #8E8F99 solid;
    background-color: 
