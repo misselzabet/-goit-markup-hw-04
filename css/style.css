@@ -406,7 +406,10 @@ footer .container {
     padding: 100px 0;
  }
 
- footer .social-media-link:focus, .social-media-link:hover{
+ footer .social-media {
+   gap: 16px;
+ }
+ footer .social-media-link:focus, footer .social-media-link:hover{
    background-color: #31D0AA;
  }
    
@@ -436,7 +439,7 @@ footer .container {
    line-height: 1.5;
    color: #FFFFFF;
    margin-bottom: 16px;
-   
+
  }
  .second-studio{
    color:#f4f4fd;
