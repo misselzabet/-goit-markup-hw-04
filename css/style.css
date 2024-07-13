@@ -249,7 +249,7 @@ gap: 24px;
 .social-media-icon{
    fill:#f4f4fd;
 }
-.social-media-link:hover, .social-media-link:focus {
+.social-media-list .social-media-link:hover, .social-media-list .social-media-link:focus {
    background-color: #404bbf;
 }
 .social-media-link{
@@ -397,7 +397,8 @@ visibility: visible;
 /* footer */
 footer .container {
    display: flex;
-   
+   align-items: baseline;
+
 }
  .last-line { 
     background-color:#2E2F42;
@@ -409,6 +410,9 @@ footer .container {
    background-color: #31D0AA;
  }
    
+ .last-line-logo{
+   margin-right: 120px;
+ }
  .second-link-logo {
    text-decoration: none;
    color: #4d5ae5;
@@ -421,6 +425,18 @@ footer .container {
    font-style: normal;
    margin-bottom: 16px;
    display: inline-block;
+ }
+ .last-line-social-media {
+
+ }
+
+ .social-media-title {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #FFFFFF;
+   margin-bottom: 16px;
+   
  }
  .second-studio{
    color:#f4f4fd;
