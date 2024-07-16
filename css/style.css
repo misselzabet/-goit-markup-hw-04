@@ -67,12 +67,12 @@ border-bottom: 1px solid #e7e9fc;
 .first-line-contact {
    display: flex;
   gap: 40px;
-  position: relative;
-  color: #404bbf;
+  
 }
-.first-line-contact::after{
+.link::after{
    width: 100%;
    bottom: -1px;
+   content: normal;
    position: absolute;
    left: 0;
    height: 4px;
@@ -99,11 +99,12 @@ border-bottom: 1px solid #e7e9fc;
 }
 /* delete */
  .link  { text-decoration: none;
-color: #2e2f42 ;
 font-weight: 500;
    letter-spacing: 0.02em;
    padding:24px 0;
    display: block;
+   position: relative;
+  color: #404bbf;
  }
 .link:hover, .link:focus{
     color: #404BBF;
