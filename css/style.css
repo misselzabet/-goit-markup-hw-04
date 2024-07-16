@@ -437,6 +437,7 @@ footer .container {
  }
 .social-media-title{
    color: #ffffff;
+   margin-bottom: 16px; 
 }
  .social-media-icon-footer{
    fill:#f4f4fd;
