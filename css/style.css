@@ -70,9 +70,9 @@ border-bottom: 1px solid #e7e9fc;
   
 }
 .link::after{
-   width: 100%;
+   width:100%;
    bottom: -1px;
-   content: normal;
+   content:"";
    position: absolute;
    left: 0;
    height: 4px;
